@@ -1,0 +1,36 @@
+OOP feladat: Könyvtár nyilvántartó rendszer 📚
+Leírás
+Készíts egy egyszerű könyvtár nyilvántartó rendszert TypeScriptben!
+
+Szükséges osztályok
+Book
+
+Tároljon el egy könyvcímet, szerzőt, ISBN számot és hogy ki van-e kölcsönözve
+Lehessen lekérdezni és módosítani az adatait
+
+Member
+
+Tároljon el egy tagot (név, tagsági szám)
+Tartsuk számon, hogy milyen könyveket kölcsönzött ki
+
+Library
+
+Tartalmazza a könyvek és tagok listáját
+Lehessen könyvet és tagot hozzáadni
+Lehessen könyvet kölcsönözni és visszahozni
+Lehessen listázni a szabad könyveket
+
+
+Elvárt műveletek a main részben
+typescriptconst library = new Library();
+
+// Könyvek és tagok felvétele
+// Kölcsönzés
+// Visszahozás
+// Szabad könyvek listázása
+
+Bónusz kihívások 🏆
+
+Ha egy könyvet olyan tag próbál visszahozni, aki nem kölcsönözte ki, dobj hibát
+Ha egy már kikölcsönzött könyvet próbálnak újra kölcsönözni, dobj hibát
+Írj egy metódust, ami listázza egy adott tag összes kölcsönzött könyvét
